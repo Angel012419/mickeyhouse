@@ -8057,10 +8057,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border: 1px solid white;
     }
 
     .two{
         width: 30%;
+        border: 1px solid white;
         height: 5rem;
         display: flex;
         align-items: center;
@@ -8072,7 +8074,7 @@
         height: 2.3rem;
         background-color: #fff;
         border-radius: 100%;
-        margin: 0 0 0 3%;
+        margin: 0 0 0 5%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -8093,6 +8095,7 @@
         height: 5rem;
         display: flex;
         align-items: center;
+        border: 1px solid white;
         justify-content: end;
     }
 
