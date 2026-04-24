@@ -244,6 +244,10 @@
         overflow: auto;
     }
 
+    #yess::-webkit-scrollbar{
+        display: none;
+ }
+
     .fix{
        width: 390%;
        height: 9rem;
@@ -1594,6 +1598,9 @@
         margin:  2rem 0 0 0;
         overflow: auto;
     }
+    #yess::-webkit-scrollbar{
+        display: none;
+    }
 
     .fix{
        width: 330%;
@@ -2943,6 +2950,9 @@
         height: 11rem;
         margin:  2rem 0 0 0;
         overflow: auto;
+    }
+    #yess::-webkit-scrollbar{
+        display: none;
     }
 
     .fix{
@@ -7400,29 +7410,38 @@
     }
 
     #age{
-        width: 40%;
+        width: 35%;
         height: 3rem;
-        
         margin: 3rem 0 0 1%;
         border-radius: 2rem;
         background-color: #000;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 1s ease;
+    }
+
+    #age:hover{
+        background-color: dimgrey;
     }
 
     #age a{
+        width: 60%;
+        height: 3rem;
         text-decoration: none;
         color: #fff;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-weight: bold;
         font-size: 0.9rem;
         padding: 0 2% 0 0;
     }
 
     [alt="arrow"]{
-        width: 10%;
-        padding: 0 0 0 2%;
+        width: 15%;
+        padding: 0 0 0 0;
     }
 
     #he{
